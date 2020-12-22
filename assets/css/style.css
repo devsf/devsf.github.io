@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* other */
+.bg-dark {
+  background-color: #000000 !important;
+}
+
 .sf-text {
   font-style: normal;
   line-height: 1.6;
@@ -46,8 +50,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Audiowide', display;
   font-size: smaller;
 }
-.social-icon {
-  font-size: 2em;
+.social-icon > span {
+  font-size: 48px;
+  width: 48px;
 }
 
 /* media */

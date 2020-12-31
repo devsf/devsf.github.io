@@ -2,6 +2,11 @@
 
 ## Changelog
 
+### 2020-12-31+dev004
+*  minified js and css
+*  performance improvements
+*  tentative glitch fixing on mobile
+
 ### 2020-12-31+dev003
 *  performance improvements
 *  accessibility improvements

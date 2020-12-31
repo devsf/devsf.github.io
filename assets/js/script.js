@@ -16,15 +16,17 @@ function onUp() {
     document.querySelector('div.icon-down-wrapper > a').classList.remove('is-hidden');
 };
 window.onscroll = function (ev) {
-    var st = window.pageYOffset || document.documentElement.scrollTop;
-    if (st > lastScrollTop) {
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            onDown();
+    if ( window.innerWidth > 768 ) {
+        var st = window.pageYOffset || document.documentElement.scrollTop;
+        if (st > lastScrollTop) {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                onDown();
+            }
+        } else {
+            if (document.body.scrollTop === 0) {
+                onUp();
+            }
         }
-    } else {
-        if (document.body.scrollTop === 0) {
-            onUp();
-        }
+        lastScrollTop = st <= 0 ? 0 : st;
     }
-    lastScrollTop = st <= 0 ? 0 : st;
 };

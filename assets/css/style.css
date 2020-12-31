@@ -1,70 +1,36 @@
-/* html */
-html, body {
-  height: auto;
-  min-height: 100vh;
-}
-body {
-  position: relative;
-  font-style: normal;
-  line-height: 1.5;
-}
-
 a, a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+h1, h2, h3, h4, h5, h6, .wbw {
   word-break: break-word;
   word-wrap: break-word;
 }
-
-/* other */
-.bg-dark {
-  background-color: #000000 !important;
-}
-
-.sf-text {
-  font-style: normal;
-  line-height: 1.6;
-}
-.display-2 {
+.ff-custom {
   font-family: 'Audiowide', display;
-  font-size: 2.5rem;
-  line-height: 1;
-  word-break: break-word;
-  word-wrap: break-word;
 }
-.display-5 {
-  font-family: 'Audiowide', display;
-  font-size: x-large;
-}
-.display-7 {
-  /*font-family: "Courier New", Courier, monospace;*/
-  font-family: monospace;
-  font-size: large;
-}
-.display-8 {
-  font-family: 'Audiowide', display;
-  font-size: smaller;
-}
-.social-icon > svg {
+.site-icon > svg {
   width: 48px;
   height: 48px;
 }
-
-/* media */
-@media (max-width: 768px) {
-  .display-2 {
-    font-size: large;
-    line-height: calc( 1.7rem + (2.5 - 1.7) * ((100vw - 20rem) / (48 - 20)) );
-  }
-  .display-5 {
-    font-size: medium;
-    line-height: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)) );
-  }
-  .display-7 {
-    font-size: medium;
-  }
+.has-bg-img {
+  background: url('../images/hero.jpg') center center;
+  background-size: cover;
 }
-
+.has-background-hero {
+  background-color: rgba(181,181,181,0.85);
+}
+.icon-down-wrapper {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+}
+.icon-up-wrapper {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+}

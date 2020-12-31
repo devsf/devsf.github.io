@@ -1,6 +1,6 @@
 # sergioferraresi.it source code
 
-# Known issues
+## Known issues
 *  glitch on landscape view on tablet
 
 ## Changelog

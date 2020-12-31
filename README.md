@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 2020-12-31+dev003
+*  performance improvements
+*  accessibility improvements
+
 ### 2020-12-31+dev002
 *  updated MEEO url
 *  performance improvements

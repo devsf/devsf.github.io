@@ -1,9 +1,12 @@
 # sergioferraresi.it source code
 
+# Known issues
+*  glitch on landscape view on tablet
+
 ## Changelog
 
 ### 2020-12-31+dev005
-*  tentative glitch fixing on mobile
+*  tentative glitch fixing on tablet
 
 ### 2020-12-31+dev004
 *  minified js and css

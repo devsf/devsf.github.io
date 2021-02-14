@@ -2,6 +2,9 @@
 
 ## Changelog
 
+### 2021-02-14+dev002
+*  possible fix for [Issue #1](https://github.com/devsf/devsf.github.io/issues/1)
+
 ### 2021-02-14+dev001
 *  possible fix for [Issue #1](https://github.com/devsf/devsf.github.io/issues/1)
 

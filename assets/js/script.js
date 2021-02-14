@@ -16,7 +16,7 @@ function onUp() {
     document.querySelector('div.icon-down-wrapper > a').classList.remove('is-hidden');
 };
 window.onscroll = function (ev) {
-    if ( window.innerWidth > 1023 ) {
+    if ( window.innerWidth > window.innerHeight && window.innerWidth > 1023 ) {
         var st = window.pageYOffset || document.documentElement.scrollTop;
         if (st > lastScrollTop) {
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
